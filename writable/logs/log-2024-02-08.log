@@ -1,0 +1,23 @@
+CRITICAL - 2024-02-08 06:05:33 --> Class 'App\Filters\AdvisorLoggedinFilter' not found
+in SYSTEMPATH/Filters/Filters.php on line 166.
+ 1 SYSTEMPATH/CodeIgniter.php(431): CodeIgniter\Filters\Filters->run('company/dashboard', 'before')
+ 2 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-08 06:23:50 --> Invalid file: vendor/view-candidate-job-applicant.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('vendor/view-candidate-job-applicant.php')
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('vendor/view-candidate-job-applicant', [], true)
+ 3 APPPATH/Controllers/VendorController.php(1632): view('vendor/view-candidate-job-applicant', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\VendorController->viewcandidatejobapplicant('3')
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VendorController))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-08 21:45:12 --> Invalid file: refund-policy.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('refund-policy.php')
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('refund-policy', [], true)
+ 3 APPPATH/Controllers/Home.php(355): view('refund-policy', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Home->refundPolicy()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,7 @@
+user_id,company_name,company_email,company_ceo,industry_id,ownership_type_id,description,location,no_of_offices,website,no_of_employees,established_in,fax,phone,logo,country_id,state_id,city_id,facebook,twitter,linkedin,pinterest,youtube,is_active,is_featured,created_at
+59,ark,srh@gmail.com,arun,"Information Technology",NGO,,nagpur,1,,1-10,2023,,9130160178,,India,Maharashtra,Nagpur,,,,,,0,0,"2023-01-12 20:11:58"
+55,sok,sagar@gmail.com,,"Information Technology",NGO,,,1,,1-10,2023,,6264020402,,India,Maharashtra,Nagpur,,,,,,0,0,"2022-09-09 14:07:29"
+53,Honda,Honda@gmail.com,harri,AutoMobile,Private,,gujarat,5,http://www.honda.com/,1-10,2000,,4561237895,company_logo_1161437720.JPG,India,Gujarat,Aldona,,,,,,0,0,"2022-08-31 19:06:11"
+53,Honda,honda@gmail.com,Hairri,AutoMobile,Private,,"Gujarat nagar",5,http://www.honda.com/,1-10,2000,,1234567894,company_logo_1249592710.JPG,India,Gujarat,Anklav,,,,,,0,0,"2022-08-31 19:02:46"
+53,Honda,honda@gmail.com,Hairri,AutoMobile,Private,,"Gujarat nagar",5,http://www.honda.com/,1-10,2000,,1234567894,company_logo_1391940145.JPG,India,Gujarat,Anklav,,,,,,0,0,"2022-08-31 19:01:43"
+53,"Omega Textile",omegatex@gmail.com,Ratan,Fashion,Private,,"wardha road basa nagpur",1,http://www.omegacorporation.co.in/,1-10,2022,,4561234562,company_logo_881247924.JPG,India,Maharashtra,Nagpur,,,,,,0,0,"2022-08-23 20:40:39"

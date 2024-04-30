@@ -1,0 +1,111 @@
+CRITICAL - 2023-12-08 04:33:26 --> Invalid file: profile.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('profile.php')
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('profile', [], true)
+ 3 APPPATH/Controllers/Candidate.php(29): view('profile', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Candidate->profile()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidate))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-08 04:33:34 --> Invalid file: profile.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('profile.php')
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('profile', [], true)
+ 3 APPPATH/Controllers/Candidate.php(29): view('profile', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Candidate->profile()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidate))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-08 04:34:05 --> Invalid file: profile.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('profile.php')
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('profile', [], true)
+ 3 APPPATH/Controllers/Candidate.php(29): view('profile', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Candidate->profile()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidate))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-08 05:10:42 --> Object of class stdClass could not be converted to string
+in APPPATH/Views/candidate/profile.php on line 66.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('candidate/profile', [], true)
+ 4 APPPATH/Controllers/Candidate.php(33): view('candidate/profile', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Candidate->profile()
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidate))
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-08 05:11:26 --> Object of class stdClass could not be converted to string
+in APPPATH/Views/candidate/profile.php on line 66.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('candidate/profile', [], true)
+ 4 APPPATH/Controllers/Candidate.php(33): view('candidate/profile', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Candidate->profile()
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidate))
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-08 05:14:27 --> Object of class stdClass could not be converted to string
+in APPPATH/Views/candidate/profile.php on line 66.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('candidate/profile', [], true)
+ 4 APPPATH/Controllers/Candidate.php(33): view('candidate/profile', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Candidate->profile()
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidate))
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-08 05:14:29 --> Object of class stdClass could not be converted to string
+in APPPATH/Views/candidate/profile.php on line 66.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('candidate/profile', [], true)
+ 4 APPPATH/Controllers/Candidate.php(33): view('candidate/profile', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Candidate->profile()
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidate))
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-08 05:16:52 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 872.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Candidate.php(30): CodeIgniter\Model->__call('allFetc', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Candidate->profile()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidate))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-08 05:16:54 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 872.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Candidate.php(30): CodeIgniter\Model->__call('allFetc', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Candidate->profile()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidate))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-08 05:17:03 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 872.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Candidate.php(30): CodeIgniter\Model->__call('allFetc', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Candidate->profile()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidate))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-08 05:32:35 --> Invalid argument supplied for foreach()
+in APPPATH/Views/candidate/profile.php on line 196.
+ 1 APPPATH/Views/candidate/profile.php(196): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH/Views/candidate/profile.php', 196, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/candidate/profile.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('candidate/profile', [], true)
+ 5 APPPATH/Controllers/Candidate.php(35): view('candidate/profile', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Candidate->profile()
+ 7 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidate))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-08 06:05:06 --> Call to a member function isValid() on null
+in APPPATH/Controllers/Candidate.php on line 81.
+ 1 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Candidate->editProfileCandidateSubmit()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidate))
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
